@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ai-image-prompt-generator.pages.dev/sitemap.xml
+Sitemap: https://ai-image-prompt-generator.zivgzhan.workers.dev/sitemap.xml

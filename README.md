@@ -88,7 +88,7 @@ Each language page includes:
 The default URLs use:
 
 ```text
-https://ai-image-prompt-generator.pages.dev
+https://ai-image-prompt-generator.zivgzhan.workers.dev
 ```
 
 If you use a custom domain, replace that domain in all HTML files, `sitemap.xml`, and `robots.txt`.
