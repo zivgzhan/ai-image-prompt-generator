@@ -68,13 +68,15 @@ a {
   text-decoration: none;
 }
 
-.language-nav {
+.language-nav,
+.footer-links {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
 
-.language-nav a {
+.language-nav a,
+.footer-links a {
   min-height: 36px;
   padding: 7px 10px;
   border: 1px solid #d8cbb8;
@@ -86,7 +88,9 @@ a {
 }
 
 .language-nav a:hover,
-.language-nav a[aria-current="page"] {
+.language-nav a[aria-current="page"],
+.footer-links a:hover,
+.footer-links a[aria-current="page"] {
   color: #fffaf1;
   border-color: #202124;
   background: #202124;
@@ -139,7 +143,8 @@ h2 {
 
 .generator,
 .how-it-works,
-.faq {
+.faq,
+.privacy-content {
   border: 1px solid #dfd4c5;
   border-radius: 8px;
   background: #fffdf8;
@@ -219,7 +224,8 @@ button:hover {
 }
 
 .how-it-works,
-.faq {
+.faq,
+.privacy-content {
   display: grid;
   gap: 18px;
   margin-top: 28px;
@@ -272,6 +278,25 @@ button:hover {
   border-top: 1px solid #eadfce;
 }
 
+.privacy-content h2 {
+  margin-bottom: 0;
+  font-size: 1.35rem;
+}
+
+.privacy-content p,
+.privacy-content li {
+  color: #55504a;
+}
+
+.privacy-content p,
+.privacy-content ul {
+  margin-bottom: 0;
+}
+
+.privacy-content ul {
+  padding-left: 22px;
+}
+
 .footer {
   display: grid;
   gap: 14px;
@@ -309,7 +334,8 @@ button:hover {
 
   .generator,
   .how-it-works,
-  .faq {
+  .faq,
+  .privacy-content {
     padding: 18px;
   }
 
