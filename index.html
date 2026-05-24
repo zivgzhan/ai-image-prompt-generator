@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Image Prompt Generator</title>
+  <meta name="description" content="AI Image Prompt Generator turns simple image ideas into complete English prompts for AI image generation tools.">
+  <link rel="canonical" href="https://ai-image-prompt-generator.pages.dev/">
+  <link rel="alternate" hreflang="en" href="https://ai-image-prompt-generator.pages.dev/en/">
+  <link rel="alternate" hreflang="zh-CN" href="https://ai-image-prompt-generator.pages.dev/zh/">
+  <link rel="alternate" hreflang="es" href="https://ai-image-prompt-generator.pages.dev/es/">
+  <link rel="alternate" hreflang="ja" href="https://ai-image-prompt-generator.pages.dev/ja/">
+  <link rel="alternate" hreflang="x-default" href="https://ai-image-prompt-generator.pages.dev/">
+  <meta property="og:title" content="AI Image Prompt Generator">
+  <meta property="og:description" content="Turn simple image ideas into complete English prompts for AI image generation tools.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ai-image-prompt-generator.pages.dev/">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="language-suggestion" class="language-suggestion" hidden></div>
+
+  <header class="site-header">
+    <a class="brand" href="/">AI Image Prompt Generator</a>
+    <nav class="language-nav" aria-label="Language switcher">
+      <a data-lang-link data-lang="en" href="/en/">English</a>
+      <a data-lang-link data-lang="zh" href="/zh/">中文</a>
+      <a data-lang-link data-lang="es" href="/es/">Español</a>
+      <a data-lang-link data-lang="ja" href="/ja/">日本語</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">Simple idea to stronger prompt</p>
+      <h1 id="page-title">AI Image Prompt Generator</h1>
+      <p class="intro">
+        Turn a simple image idea into a more complete English prompt that works better
+        with AI image generation tools.
+      </p>
+    </section>
+
+    <section class="generator" aria-label="Prompt generator">
+      <label for="idea-input">Your image idea</label>
+      <textarea id="idea-input" rows="5" placeholder="Example: a cozy cabin in a snowy forest"></textarea>
+      <button id="generate-button" type="button">Generate Prompts</button>
+      <!-- Generated prompts and validation messages appear here. -->
+      <div id="results" class="results" aria-live="polite"></div>
+    </section>
+
+    <section class="how-it-works" aria-labelledby="how-title">
+      <h2 id="how-title">How it works</h2>
+      <div class="steps">
+        <article>
+          <span>1</span>
+          <h3>Enter an image idea</h3>
+          <p>Write a short description of the picture you want to create.</p>
+        </article>
+        <article>
+          <span>2</span>
+          <h3>Click generate</h3>
+          <p>The page creates five English AI image prompts in your browser.</p>
+        </article>
+        <article>
+          <span>3</span>
+          <h3>Copy a prompt</h3>
+          <p>Use your favorite prompt in an AI image generation tool.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">FAQ</h2>
+      <div class="faq-item">
+        <h3>What does this tool do?</h3>
+        <p>It turns simple image ideas into fuller English prompts for AI image generators.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Is it free?</h3>
+        <p>Yes. This static website runs in your browser and does not use a paid API.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Do I need to log in?</h3>
+        <p>No. There is no account, login, database, or tracking requirement.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Can I copy and use the generated prompts?</h3>
+        <p>Yes. You can copy the generated text into your preferred image generation tool.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Why are the generated prompts in English?</h3>
+        <p>English prompts are often more consistent across popular AI image tools.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 AI Image Prompt Generator. Built as a simple static website.</p>
+    <nav class="language-nav" aria-label="Footer language switcher">
+      <a data-lang-link data-lang="en" href="/en/">English</a>
+      <a data-lang-link data-lang="zh" href="/zh/">中文</a>
+      <a data-lang-link data-lang="es" href="/es/">Español</a>
+      <a data-lang-link data-lang="ja" href="/ja/">日本語</a>
+    </nav>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

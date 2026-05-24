@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Image Prompt Generator - 中文版</title>
+  <meta name="description" content="AI Image Prompt Generator 可以把简单的图片想法转换成更完整、更适合 AI 图片生成工具使用的英文提示词。">
+  <link rel="canonical" href="https://ai-image-prompt-generator.pages.dev/zh/">
+  <link rel="alternate" hreflang="en" href="https://ai-image-prompt-generator.pages.dev/en/">
+  <link rel="alternate" hreflang="zh-CN" href="https://ai-image-prompt-generator.pages.dev/zh/">
+  <link rel="alternate" hreflang="es" href="https://ai-image-prompt-generator.pages.dev/es/">
+  <link rel="alternate" hreflang="ja" href="https://ai-image-prompt-generator.pages.dev/ja/">
+  <link rel="alternate" hreflang="x-default" href="https://ai-image-prompt-generator.pages.dev/">
+  <meta property="og:title" content="AI Image Prompt Generator - 中文版">
+  <meta property="og:description" content="把简单图片想法转换成适合 AI 图片生成工具使用的英文提示词。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ai-image-prompt-generator.pages.dev/zh/">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div id="language-suggestion" class="language-suggestion" hidden></div>
+
+  <header class="site-header">
+    <a class="brand" href="/zh/">AI Image Prompt Generator</a>
+    <nav class="language-nav" aria-label="语言切换">
+      <a data-lang-link data-lang="en" href="/en/">English</a>
+      <a data-lang-link data-lang="zh" href="/zh/" aria-current="page">中文</a>
+      <a data-lang-link data-lang="es" href="/es/">Español</a>
+      <a data-lang-link data-lang="ja" href="/ja/">日本語</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">简单想法变成完整提示词</p>
+      <h1 id="page-title">AI Image Prompt Generator</h1>
+      <p class="intro">
+        输入一个简单的图片想法，生成更完整的英文 AI 图片提示词，方便复制到常见 AI 图片生成工具中使用。
+      </p>
+    </section>
+
+    <section class="generator" aria-label="提示词生成器">
+      <label for="idea-input">你的图片想法</label>
+      <textarea id="idea-input" rows="5" placeholder="例如：雪森林里的一间温暖小木屋"></textarea>
+      <button id="generate-button" type="button">生成提示词</button>
+      <div id="results" class="results" aria-live="polite"></div>
+    </section>
+
+    <section class="how-it-works" aria-labelledby="how-title">
+      <h2 id="how-title">使用方式</h2>
+      <div class="steps">
+        <article>
+          <span>1</span>
+          <h3>输入图片想法</h3>
+          <p>写下你想生成的画面，可以很短，但越具体越好。</p>
+        </article>
+        <article>
+          <span>2</span>
+          <h3>点击生成</h3>
+          <p>页面会在浏览器中生成 5 条英文 AI 图片提示词。</p>
+        </article>
+        <article>
+          <span>3</span>
+          <h3>复制提示词</h3>
+          <p>把你喜欢的提示词复制到 AI 图片生成工具中使用。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">常见问题</h2>
+      <div class="faq-item">
+        <h3>这个工具是做什么的？</h3>
+        <p>它可以把简单图片想法扩展成更完整的英文 AI 图片生成提示词。</p>
+      </div>
+      <div class="faq-item">
+        <h3>这个工具免费吗？</h3>
+        <p>免费。它是静态网站，不调用付费 API。</p>
+      </div>
+      <div class="faq-item">
+        <h3>需要登录吗？</h3>
+        <p>不需要。网站没有账号、登录、数据库或支付功能。</p>
+      </div>
+      <div class="faq-item">
+        <h3>生成的提示词可以复制使用吗？</h3>
+        <p>可以。你可以复制生成的文字，并粘贴到你常用的图片生成工具中。</p>
+      </div>
+      <div class="faq-item">
+        <h3>为什么生成结果是英文？</h3>
+        <p>许多 AI 图片工具对英文提示词的理解更稳定，所以结果保持英文。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 AI Image Prompt Generator。纯静态网站。</p>
+    <nav class="language-nav" aria-label="页脚语言切换">
+      <a data-lang-link data-lang="en" href="/en/">English</a>
+      <a data-lang-link data-lang="zh" href="/zh/" aria-current="page">中文</a>
+      <a data-lang-link data-lang="es" href="/es/">Español</a>
+      <a data-lang-link data-lang="ja" href="/ja/">日本語</a>
+    </nav>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
